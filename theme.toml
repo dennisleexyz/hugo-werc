@@ -1,0 +1,17 @@
+name = "werc"
+license = "CC0-1.0"
+licenselink = "https://github.com/dennisleexyz/hugo-werc/blob/master/LICENSE"
+description = "A theme ported from werc"
+homepage = "https://github.com/dennisleexyz/hugo-werc"
+tags = ["minimal", "blog", "personal", "clean", "simple", "starter", "minimalist"]
+features = ["blog"]
+min_version = "0.18"
+
+[author]
+  name = "Dennis Lee"
+  homepage = "https://dennislee.xyz/"
+
+[original]
+  name = "werc"
+  homepage = "http://werc.cat-v.org/"
+  repo = "https://code.9front.org/hg/werc"

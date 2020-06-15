@@ -1,0 +1,23 @@
+{{ partial "headers.html" . }}
+<header>
+    <nav>
+        {{ partial "top_bar.html" . }}
+    </nav>
+    <h1><a href="/">{{ .Site.Title }}</a></h1>
+</header>
+
+    <nav id="side-bar">
+        <div>
+
+        <ul class="dir-list">
+            {{ range .Site.Home.Pages }}
+            <li>
+                <a href="{{ .RelPermalink }}">› {{ .Title | markdownify }}/</a>
+            </li>
+            {{ end }}
+        </ul>
+
+        </div>
+    </nav>
+
+<article>

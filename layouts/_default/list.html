@@ -1,0 +1,9 @@
+{{ partial "default_master" . }}
+
+    {{ range .Pages }}
+    <li>
+        <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+    </li>
+    {{ end }}
+
+{{ partial "footer" . }}
